@@ -1,7 +1,7 @@
 <?php
 
 
-function sum(int $a, int $b) : float {
+function sum(int $a, float $b) : string {
 
   return $a+$b;
 }
