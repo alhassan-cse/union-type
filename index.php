@@ -1,7 +1,9 @@
 <?php
 
+// must define this declares
+declare(strict_types = 1);
 
-function sum(int $a, float $b) : string {
+function sum(int $a, int $b) : int {
 
   return $a+$b;
 }
